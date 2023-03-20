@@ -29,6 +29,7 @@ const Coindetail = () => {
     }
     fetchCoin()
   }, [params.id])
+  console.log(params.id)
   return (
   loading?<Loader/>:<>
   <Box>

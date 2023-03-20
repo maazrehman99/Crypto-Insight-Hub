@@ -1,5 +1,5 @@
 
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route, Link} from 'react-router-dom'
 import Header from'./Components/Header'
 import Home from './Components/Home'
 import Coins from './Components/Coins'
@@ -14,7 +14,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/coins' element={<Coins/>} />
         <Route path='/exchanges' element={<Exchanges/>} />
-        <Route path='/coin/:id' element={<Coindetail/>} />
+        <Route path="/coin/:id" element={<Coindetail/>} />
+
       </Routes>
     </Router>
   );

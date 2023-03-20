@@ -10,10 +10,10 @@ const Header = () => {
         <Link to={'/'} >Home</Link>
       </Button>
       <Button variant={'unstyled'} color={'white'}>
-        <Link to={'/exchanges'} >Exchanges</Link>
+        <Link to='/exchanges' >Exchanges</Link>
       </Button>
       <Button variant={'unstyled'} color={'white'}>
-        <Link to={'/coins'} >Coins</Link>
+        <Link to='/coins' >Coins</Link>
       </Button>
     </HStack>
   )
